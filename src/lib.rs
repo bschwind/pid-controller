@@ -4,6 +4,7 @@
 // TODO(bschwind) - * Add some DT time-tracking code
 //                  * Use a builder pattern for configuring the PID controller
 //                  * Apply this to something real and test it
+//                  * Make it no_std compatible
 
 pub struct PidController {
     kp: f32,
